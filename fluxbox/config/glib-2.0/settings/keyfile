@@ -1,0 +1,45 @@
+[org/gnome/desktop/sound]
+event-sounds=false
+input-feedback-sounds=false
+theme-name='default'
+
+[org/gnome/desktop/peripherals/mouse]
+double-click=400
+drag-threshold=8
+
+[org/gnome/desktop/wm/preferences]
+button-layout='icon,menu:minimize,maximize,close'
+action-middle-click-titlebar='lower'
+
+[org/gnome/desktop/interface]
+gtk-theme='Greybird-dark'
+icon-theme='elementary-xfce'
+gtk-key-theme=''
+cursor-blink=true
+cursor-blink-time=1200
+cursor-size=0
+cursor-theme=''
+font-name='Sans 10'
+
+[org/xfce/mousepad/state/application]
+session=['1;;+file:///home/xfce/firefox_profile.sh']
+
+[org/xfce/mousepad/state/window]
+width=640
+height=480
+maximized=true
+fullscreen=false
+
+[org/gtk/settings/file-chooser]
+window-position=(429, 138)
+window-size=(1074, 805)
+date-format='regular'
+location-mode='path-bar'
+show-hidden=false
+show-size-column=true
+show-type-column=true
+sidebar-width=173
+sort-column='name'
+sort-directories-first=false
+sort-order='ascending'
+type-format='category'

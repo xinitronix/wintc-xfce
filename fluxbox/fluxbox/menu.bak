@@ -1,0 +1,158 @@
+#
+## Menu generated with fbmenugen v0.88
+#
+
+[begin] (Fluxbox)
+[encoding] {UTF-8}
+  [exec] (File Manager) {xdg-open .}
+  [exec] (Terminal) {xterm}
+  [exec] (Web Browser) {xdg-open http://}
+  [exec] (Run command) {fbrun}
+[separator]
+[submenu] (Accessories)
+  [exec] (About Xfce) {xfce4-about}
+  [exec] (Android File Transfer (MTP\)) {android-file-transfer}
+  [exec] (Application Finder) {xfce4-appfinder}
+  [exec] (Arqiver) {arqiver}
+  [exec] (Barrier) {barrier}
+  [exec] (Bulk Rename) {thunar --bulk-rename}
+  [exec] (File Manager PCManFM) {pcmanfm}
+  [exec] (File Manager) {exo-open --launch FileManager}
+  [exec] (GPG-Gui) {gpg-gui}
+  [exec] (Leafpad) {leafpad}
+  [exec] (Midnight Commander) {xterm -e 'mc'}
+  [exec] (Mousepad) {mousepad}
+  [exec] (Notepad) {notepad}
+  [exec] (Open as Root File Manager PCManFM) {sudo pcmanfm}
+  [exec] (Run Program...) {xfce4-appfinder --collapsed}
+  [exec] (Terminal Emulator) {exo-open --launch TerminalEmulator}
+  [exec] (Waypaper) {waypaper}
+  [exec] (Windows Explorer) {explorer}
+[end]
+[submenu] (Development)
+  [exec] (GTK Demo) {gtk4-demo}
+  [exec] (Icon Browser) {gtk4-icon-browser}
+  [exec] (Node Editor) {gtk4-node-editor}
+  [exec] (Print Editor) {gtk4-print-editor}
+  [exec] (Qt 5 Assistant) {/usr/local/lib/qt5/bin/assistant}
+  [exec] (Qt 5 Designer) {/usr/local/lib/qt5/bin/designer}
+  [exec] (TQt3 Assistant) {tqassistant}
+  [exec] (TQt3 Designer) {tqdesigner}
+  [exec] (TQt3 Linguist) {tqlinguist}
+  [exec] (Widget Factory) {gtk4-widget-factory}
+[end]
+[submenu] (Multimedia)
+  [exec] (mpv Media Player) {mpv --player-operation-mode=pseudo-gui --}
+  [exec] (PulseAudio Volume Control) {pavucontrol}
+[end]
+[submenu] (Network)
+  [exec] (FileZilla) {filezilla}
+  [exec] (Firefox Developer Edition) {/usr/local/bin/firefox-dev}
+  [exec] (Firefox Nightly) {firefox-nightly}
+  [exec] (Firefox Web Browser) {firefox}
+  [exec] (Google Chrome) {/usr/local/bin/google-chrome}
+  [exec] (Hola Proxy) {hola-proxy.py}
+  [exec] (Internet Explorer) {explorer --ie}
+  [exec] (Mail Reader) {exo-open --launch MailReader}
+  [exec] (qBittorrent) {qbittorrent}
+  [exec] (Telegram) {telegram-desktop --}
+  [exec] (TigerVNC viewer) {vncviewer}
+  [exec] (Web Browser) {exo-open --launch WebBrowser}
+[end]
+[submenu] (Office)
+  [exec] (GnuCash) {gnucash}
+[end]
+[submenu] (Other)
+  [exec] (Rofi Theme Selector) {rofi-theme-selector}
+  [exec] (Rofi) {rofi -show}
+[end]
+[submenu] (Settings)
+  [exec] (Accessibility) {xfce4-accessibility-settings}
+  [exec] (Appearance) {xfce4-appearance-settings}
+  [exec] (Color Profiles) {xfce4-color-settings}
+  [exec] (Customize Look and Feel) {lxappearance}
+  [exec] (Default Applications) {xfce4-mime-settings}
+  [exec] (Desktop Preferences) {pcmanfm --desktop-pref}
+  [exec] (Desktop) {xfdesktop-settings}
+  [exec] (Display) {desk.cpl}
+  [exec] (Display) {xfce4-display-settings}
+  [exec] (Keyboard) {xfce4-keyboard-settings}
+  [exec] (Mouse and Touchpad) {xfce4-mouse-settings}
+  [exec] (Notifications) {xfce4-notifyd-config}
+  [exec] (NVIDIA X Server Settings) {nvidia-settings}
+  [exec] (Openbox Configuration Manager) {obconf}
+  [exec] (Panel) {xfce4-panel --preferences}
+  [exec] (Power Manager) {xfce4-power-manager-settings}
+  [exec] (Preferred Applications) {libfm-pref-apps}
+  [exec] (PulseAudio Volume Control) {pavucontrol}
+  [exec] (Session and Startup) {xfce4-session-settings}
+  [exec] (Settings Editor) {xfce4-settings-editor}
+  [exec] (Settings Manager) {xfce4-settings-manager}
+  [exec] (System) {sysdm.cpl}
+  [exec] (Text Editor Settings) {mousepad --preferences}
+  [exec] (Thunar Preferences) {thunar-settings}
+  [exec] (Tint2 Settings) {tint2conf}
+  [exec] (TQt3 Configuration) {tqtconfig}
+  [exec] (Window Manager Tweaks) {xfwm4-tweaks-settings}
+  [exec] (Window Manager) {xfwm4-settings}
+  [exec] (Workspaces) {xfwm4-workspace-settings}
+  [exec] (Xfce Terminal Settings) {xfce4-terminal --preferences}
+[end]
+[submenu] (System)
+  [exec] (Alacritty) {alacritty}
+  [exec] (Android File Transfer (MTP\)) {android-file-transfer}
+  [exec] (Dockerbox) {dockerbox.py}
+  [exec] (fbpanel) {fbpanel}
+  [exec] (File Manager PCManFM) {pcmanfm}
+  [exec] (Htop) {xterm -e 'htop'}
+  [exec] (Log Out) {xfce4-session-logout}
+  [exec] (Midnight Commander) {xterm -e 'mc'}
+  [exec] (Open as Root File Manager PCManFM) {sudo pcmanfm}
+  [exec] (Thunar File Manager) {thunar}
+  [exec] (Tint2) {tint2}
+  [exec] (Ubuntu Chroot) {ubuntu_chroot}
+  [exec] (Xfce Terminal) {xfce4-terminal}
+  [exec] (XTerm) {xterm}
+[end]
+[separator]
+[submenu] (Advanced Settings)
+  [exec] (Conky RC) {geany ~/.conkyrc}
+  [exec] (Tint2 Panel) {geany ~/.config/tint2/tint2rc}
+[submenu] (Fbmenugen)
+  [exec] (Menu Schema) {geany ~/.config/fbmenugen/schema.pl}
+  [exec] (Menu Config) {geany ~/.config/fbmenugen/config.pl}
+[separator]
+  [exec] (Generate a menu with icons) {fbmenugen -i}
+  [exec] (Generate a menu without icons) {fbmenugen -g}
+[separator]
+  [exec] (Refresh cache) {fbmenugen -d}
+[end]
+[submenu] (Fluxbox)
+[config] (Configure)
+[submenu] (System Styles) {Choose a style...}
+  [stylesdir] (/usr/share/fluxbox/styles)
+[end]
+[submenu] (User Styles) {Choose a style...}
+  [stylesdir] (~/.fluxbox/styles)
+[end]
+[workspaces] (Workspace List)
+[submenu] (Tools)
+  [exec] (Screenshot - JPG) {import screenshot.jpg && display -resize 50% screenshot.jpg}
+  [exec] (Screenshot - PNG) {import screenshot.png && display -resize 50% screenshot.png}
+  [exec] (Run) {fbrun}
+  [exec] (Regen Menu) {fluxbox-generate_menu}
+[end]
+[commanddialog] (Fluxbox Command)
+  [reconfig] (Reload config)
+  [restart] (Restart)
+  [exec] (About) {(fluxbox -v; fluxbox -info | sed 1d) | xmessage -file - -center}
+  [separator]
+  [exit] (Exit)
+[end]
+[end]
+[separator]
+  [exec] (Refresh) {/usr/local/bin/perl \/home\/xfce\/fbmenugen\/fbmenugen -S \/home\/xfce\/\.config\/fbmenugen\/schema\.pl -C \/home\/xfce\/\.config\/fbmenugen\/config\.pl -o \/home\/xfce\/\.fluxbox\/menu}
+[exit] (Exit)
+
+[endencoding]
+[end]
