@@ -5,4 +5,4 @@ git add --all
 git add .
 git commit -n
 #git push https://github.com/xinitronix/mate.git
-git push ssh://git@github.com/xinitronix/wintc-xfce.git
+git push https://github.com/xinitronix/wintc-xfce.git
