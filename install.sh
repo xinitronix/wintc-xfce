@@ -1,9 +1,9 @@
 #!/bin/sh
 
 
-cp -r fluxbox/fluxbox                        ~/.fluxbox
-cp -r fluxbox/config/fbmenugen               ~/.config/
-doas cp   fluxbox/config/fbmenugen/fbmenugen /usr/local/bin
+cp -r   fluxbox/fluxbox                      /.fluxbox
+cp -r   fluxbox/config/fbmenugen            ~/.config/
+doas cp fluxbox/config/fbmenugen/fbmenugen   /usr/local/bin
 
 
 cp  -r  xfce/autostart                       ~/.config
