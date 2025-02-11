@@ -15,6 +15,7 @@ cp  -r  xfce/pcmanfm                         ~/.config/
 cp     ideskrc                               ~/.ideskrc
 cp  -r idesktop                              ~/.idesktop 
 
-
 #fix run "explorer ie" from  xfce-wintc
 echo 'setenv WEBKIT_DISABLE_DMABUF_RENDERER 1' >> ~/.cshrc
+
+doas pkg install -r myrepo xfce4-session xfce4-settings xfce4-wm xfce-winxp-tc
