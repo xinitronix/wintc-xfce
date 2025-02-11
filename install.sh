@@ -12,6 +12,9 @@ cp      xfce/gtkrc-2.0                       ~/.gtkrc-2.0
 cp      xfce/xinitrc                         ~/.xinitrc 
 cp  -r  xfce/pcmanfm                         ~/.config/
 
+cp     ideskrc                               ~/.ideskrc
+cp  -r idesktop                              ~/.idesktop 
+
 
 #fix run "explorer ie" from  xfce-wintc
 echo 'setenv WEBKIT_DISABLE_DMABUF_RENDERER 1' >> ~/.cshrc

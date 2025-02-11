@@ -1,0 +1,10 @@
+table Icon
+  Caption: Home
+  Command: explorer /home/definitly
+  Icon: /usr/local/share/icons/luna/48x48/places/user-home.png
+  Width: 48
+  Height: 48
+  X: 29
+  Y: 29
+end
+

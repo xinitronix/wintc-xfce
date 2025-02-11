@@ -4,5 +4,6 @@
 #wintc-taskband &
 exec   setxkbmap -layout us,ru -option "grp:alt_shift_toggle,grp_led:scroll" -variant ",winkeys"  &  
 alacritty -e screen_check.sh &
-pcmanfm --desktop &
+#pcmanfm --desktop &
+idesk &
 startxfce4

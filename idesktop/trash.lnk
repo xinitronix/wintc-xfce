@@ -1,0 +1,10 @@
+table Icon
+  Caption: Корзина
+  Command: explorer ~/.local/share/Trash/files
+  Icon: /usr/local/share/icons/luna/48x48/places/user-trash.png
+  Width: 48
+  Height: 48
+  X: 49
+  Y: 129
+end
+

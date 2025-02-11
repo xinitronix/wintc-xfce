@@ -1,0 +1,10 @@
+table Icon
+  Caption: Компьютер 
+  Command:  explorer /
+  Icon: /usr/local/share/icons/luna/48x48/places/start-here.png
+  Width: 48
+  Height: 48
+  X: 49
+  Y: 229
+end
+
